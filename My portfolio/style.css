@@ -1,0 +1,144 @@
+/* navbar section */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+nav
+{
+    width: 100%;
+    position: sticky !important;
+    left: 0;
+    top: 0;
+    box-shadow: opx 5px 8px rgba(0, 0, 0, .5);
+}
+.navbar-brand{
+    font-weight: 600;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover{
+    border-bottom: 1px solid white;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+}
+/* Home Section */
+#home{
+    width: 100%;
+    height: 100vh;
+    background: url(images/bg1.JPEG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+#home p{
+    position: absolute;
+    top: 50%;
+    font-size: 100px;
+    /* opacity: 0;
+    animation: text 3s ease-in-out; */
+
+}
+/* #home p:nth-child(1){
+    animation-delay: 0s;
+}
+#home p:nth-child(2){
+    animation-delay: 3s;
+}
+#home p:nth-child(3){
+    animation-delay: 6s;
+}
+#home p:nth-child(4){
+    animation-delay: 9s; */
+}
+/* @keyframes text{
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+
+} */
+#home p span{
+    color: yellow;
+}
+
+/* @media screen and (max-width:576px) { 
+    #nav p{
+        font-size: 80px;
+    }
+    
+} */
+
+/* About Section */
+
+#about{
+    margin: 15px;
+    background-color: yellow;
+}
+#about img{
+    height: 500px;
+}
+.content{
+    font-size: 20px;
+    font-family:Arial ;
+  
+}
+/* skill section */
+#skills{
+    padding-top: 5%;
+    background: #e5e5e5;
+    color: brown;
+    
+
+}
+#skills .container{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    
+}
+label{
+    font-size: 20px;
+    color: red;
+}
+.progress{
+    height: 30px !important;
+    box-shadow: 2px 4px 6px gray, -2px -2px 6px white;
+}
+.progress:hover{
+    box-shadow: 2px 4px 6px white, -2px -2px 6px gray;
+}
+#free{
+    background-color: lightskyblue;
+    padding-top: 5%;
+  
+}
+
+.card{
+    margin-top: 15px;
+}  
+#contact{
+    margin-top: 25px;
+    padding: 7%;
+    background-color: limegreen;
+}
+#contact iframe{
+    box-shadow: 2px 4px 9px red;
+}
+
+    
+
+
